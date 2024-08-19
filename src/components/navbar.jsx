@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-
+import { Link } from "react-router-dom"
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 
@@ -114,7 +114,7 @@ export default function Navbar() {
                     />
                   </svg>
 
-                  <span>Photos</span>
+                 <Link to={'/photography'}> <span>Photos</span></Link>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
