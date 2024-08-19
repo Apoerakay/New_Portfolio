@@ -86,7 +86,9 @@ export default function Navbar() {
                     />
                   </svg>
 
-                  <span>Websites</span>
+                 <Link to={'/websites'}>
+                 <span>Websites</span>
+                 </Link>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">

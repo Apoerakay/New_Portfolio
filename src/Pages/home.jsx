@@ -41,6 +41,7 @@ export function Home() {
               You need a Web Developer?
             </button>
           </Link>
+          
           <Link to="/photography">
             <button className="border border-black hover:bg-white text-black px-4 py-2 sm:px-5 sm:py-2.5 rounded-md text-sm sm:text-base">
               You need a photographer?
